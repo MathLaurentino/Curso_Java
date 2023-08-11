@@ -1,7 +1,7 @@
 import java.util.Locale;
 import java.util.Scanner;
 
-import packed1.Product;
+import package_1.Product;
 
 public class App {
     public static void main(String[] args) {

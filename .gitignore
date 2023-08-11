@@ -1,0 +1,13 @@
+# Ignorar arquivos de configuração de IDEs
+.idea/
+
+# Ignorar pastas bin e lib em todos os projetos
+*bin/
+*lib/
+*.vscode/
+
+# Ignorar arquivos README.md em todos os projetos
+*README.md
+
+# Incluir apenas a pasta src em todos os projetos
+!*/src/

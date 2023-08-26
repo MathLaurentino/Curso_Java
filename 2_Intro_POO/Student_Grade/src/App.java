@@ -11,10 +11,10 @@ public class App {
         Student student = new Student();
         
         System.out.println("Inform Student data: ");
-        student.name = sc.nextLine();
-        student.grade1 = sc.nextDouble();
-        student.grade2 = sc.nextDouble();
-        student.grade3 = sc.nextDouble();
+        student.setName(sc.nextLine());
+        student.setGrade1(sc.nextDouble());
+        student.setGrade2(sc.nextDouble());
+        student.setGrade3(sc.nextDouble());
 
         System.out.printf("FINAL GRADE: %.2f%n", student.finalGrade());
 

@@ -1,8 +1,8 @@
-import java.text.ParseException;
 import java.time.Instant;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
+
 /**
  * Criando datas 
  * ->LocalDate
@@ -11,7 +11,7 @@ import java.time.format.DateTimeFormatter;
  */
 public class Program1 {
 
-    public static void main(String[] args) throws ParseException {
+    public static void main(String[] args) {
         
 		DateTimeFormatter fmt1 = DateTimeFormatter.ofPattern("dd/MM/yyyy");
 		DateTimeFormatter fmt2 =  DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm");
